@@ -1,0 +1,57 @@
+.editor {
+    height: 400px;
+}
+
+.editorClass {
+    background-color: #fff;
+    height: 350px!important;
+}
+
+.creatorPage {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 20px;
+}
+
+/* кнопка "Отправить */
+
+.sendingPost {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sendingPost:hover {
+    background-color: #218838;
+  }
+
+/* кнопка "редактировать" */
+
+.updatePost {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.updatePost:hover {
+    background-color: #0062cc;
+}
+
+.updatePost:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+

@@ -1,0 +1,76 @@
+.smallImages img {
+    width: auto !important;
+    height: 50px!important;
+}
+
+.bigImages img {
+    display: block;
+    min-width: 500px!important;
+    height: auto;
+    max-height: 800px;
+    margin-bottom: 50px;
+}
+
+.bigImages {
+    display: flex!important;
+    justify-content: center;
+}
+
+.sliderGallery .slick-dots {
+    position: relative;
+    padding-left: 0px!important;
+}
+
+.sliderGallery .slick-dots li {
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    transform: scale(1);
+    opacity: 0.7;
+}
+
+.sliderGallery .slick-dots li a{
+    margin-left: 10px;
+}
+
+.sliderGallery .slick-dots li:first-child {
+    margin-left: 0px !important;
+}
+
+.sliderGallery .slick-dots .slick-active {
+    transform: scale(1.1);
+    transition: .3s;
+    opacity: 1;
+}
+
+.sampleNextArrow_Gallery {
+    background-image: url('../../../assets/gallery/arrow.png');
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-90deg);
+}
+
+.sampleNextArrow_Gallery:hover {
+    opacity: 1!important;
+}
+
+.sampleNextArrow_Gallery:before,
+.sampleNextArrow_Gallery:after {
+    content: ""!important;
+}
+/* 
+.samplePrevArrow_Gallery {
+    background-image: url('../../../assets/gallery/arrow.png');
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    transform: rotate(90deg);
+}
+.samplePrevArrow_Gallery {
+    background-image: url('../../../assets/gallery/arrow.png');
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    transform: rotate(90deg);
+} */

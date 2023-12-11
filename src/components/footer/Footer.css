@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    padding:0px 30px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+    height: 215px;
+    background-color: rgba(101, 95, 83, 0.75);
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: ZenKaku;
+    src: url(../../assets/fonts/ZenKakuGothicNew-Medium.ttf);
+}
+
+.ZenKaku {
+    font-family: ZenKaku;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.footerIcon {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100px;
+    height: 85px;
+    box-sizing: border-box;
+}
+
+.icon {
+    display: flex; 
+    flex-direction: column;
+}
+
+.icon a {
+    margin-top: auto;
+}
+
+.icon a img {
+    vertical-align: bottom;
+}
+
+.footerIcon .info {
+    display: grid;
+    height: 100%;
+    gap: 5px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.info .infoDescription {
+    padding-right: 20px;
+    border-top: 1px solid white;
+}
+
+/* .pageLinks {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pageLinks div {
+    padding-right: 50px;
+} */
+
+.socialNetworks {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socialNetworks .info {
+    display: flex;
+    align-items: center;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.icon_social{
+    background-color: #F26627;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > .infoName {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.info > .infoDescription {
+    font-size: 16px;
+}
+
+/* .pageLinks {
+    font-size: 18px;
+    cursor: pointer;
+} */

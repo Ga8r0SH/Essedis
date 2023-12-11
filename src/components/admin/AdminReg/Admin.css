@@ -1,0 +1,100 @@
+.admin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-color: #EFEEEE;
+}
+
+.adminReg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.adminReg .text {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.adminReg form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registrationForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+}
+
+.adminRegFormName div {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.adminRegFormInputs input {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: 2px solid #ff4f00;
+}
+
+button[type="submit"] {
+    background-color: #ff4f00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    transition: .3s;
+    background-color: #963000;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.exitAdmin {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.exitAdmin button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.exitAdmin button:hover {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,45 @@
+.wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.items {
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgba(225, 225, 225, 0.594);
+    border-radius: 20px;
+}
+
+.itemWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemWrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+
+.delete button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 6px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete button:hover {
+    background-color: #cc0000;
+}
+
+.deletingMessage {
+    margin-top: 20px;
+    text-align: center;
+    color: #ee3333;
+    font-weight: 600;
+}

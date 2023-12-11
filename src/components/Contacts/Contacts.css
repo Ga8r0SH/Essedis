@@ -1,0 +1,25 @@
+.wrapper__contacts{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.informationForCompany{
+    font-weight: 600;
+}
+@font-face {
+    font-family:SegoeUI;
+    src: url(../../assets/fonts/Segoe\ UI.ttf);
+}
+.information{
+   list-style: none;
+   margin-top: 10px;
+}
+.information li{
+    padding-top: 5px;
+}
+.phone{
+    margin-top: 25px;
+}
+.mail{
+    margin-top: 25px;
+    margin-bottom: 400px;
+}

@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapperForDescriptionAndLogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.assedis__discription {
+    margin-top: 25px;
+}
+
+.box__text {
+    margin-left: 35px;
+    max-width: 740px;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: AboutAs;
+    src: url(../../assets/fonts/Segoe\ UI.ttf);
+}
+
+.colorAssedis {
+    color: #F26627;
+    font-size: 18px;
+}
+
+.box__text .item:first-child {
+    padding-top: 0px;
+}
+
+.box__text .item {
+    padding-top: 55px;
+}
+
+.scope__title {
+    position: relative;
+    font-size: 23px;
+    color: #787878;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.scope__title::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(50%);
+    height: 2px;
+    width: calc(100% - 250px);
+    background-color: #F26627;
+
+
+}
+
+.scope__title-text {
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.fullTeam {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.person {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.person img {
+    margin-right: 10px;
+    max-height: 420px;
+    min-height: 420px;
+    border-radius: 3px;
+}
+
+.person .delete button {
+    background-color: #d20015;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: .5;
+}
+
+.person .delete button:hover {
+    background-color: #c82333;
+    transition: .3s;
+    opacity: .9;
+}
+
+.person .update button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: .5;
+}
+
+.person .update button:hover {
+    background-color: #0062cc;
+    transition: .3s;
+    opacity: .9;
+}
+
+.person .update button:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.team {
+    position: relative;
+    font-size: 23px;
+    color: #787878;
+    font-weight: 700;
+    margin-top: 80px;
+    line-height: 1;
+}
+
+.team::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(50%);
+    height: 2px;
+    width: calc(100% - 135px);
+    background-color: #F26627;
+
+
+}
+
+.namePerson {
+    margin-top: 25px;
+}
+
+.namePerson p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.namePerson h1 {
+    font-size: 23px;
+}
+
+.fullPartners {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partners {
+    position: relative;
+    font-size: 23px;
+    color: #787878;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.partners::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(50%);
+    height: 2px;
+    width: calc(100% - 220px);
+    background-color: #F26627;
+
+}
+
+.fullPartners {
+    margin-top: 50px;
+
+}
+
+.сharter {
+    position: relative;
+    font-size: 23px;
+    color: #787878;
+    font-weight: 700;
+    margin-top: 80px;
+    line-height: 1;
+}
+
+.сharter::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(50%);
+    height: 2px;
+    width: calc(100% - 155px);
+    background-color: #F26627;
+
+}
+
+.documentation {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.logoPartners:first-child {
+    margin-left: 0px;
+}
+
+.logoPartners {
+    margin-left: 20px;
+}
+
+.buttonPopUpYes {
+    width: 40px;
+    height: 30px;
+    background-color: #00ff11;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+.buttonPopUpNo {
+    width: 40px;
+    height: 30px;
+    background-color: #ff0000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+
+}
+
+.buttonPopUpYes.buttonPopUpNo:hover {
+    cursor: pointer;
+}
+@media(max-width:1410px){
+    .wrapperForDescriptionAndLogo{
+        flex-wrap: wrap;
+    }
+    .box__text{
+        max-width: none;
+        margin-top: 15px;
+    }
+    .box__image{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width:1250px){
+    .sliderImages img {
+        max-width: 540px;
+    }
+}
+@media(max-width:1200px){
+    .sliderImages img {
+        max-width: 455px;
+    }
+}

@@ -1,0 +1,52 @@
+.creator {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.creatorForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text div {
+    margin-bottom: 20px;
+}
+
+.textEnter div {
+    margin-bottom: 20px;
+}
+.textEnter div input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 4px rgba(0, 115, 255, 0.216);
+    transition: box-shadow 0.2s ease-in-out;
+    outline: none;
+
+}
+.textEnter div input:focus{
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.submit {
+    text-align: center;
+}
+
+.addPerson {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.addPerson:hover {
+    background-color: #218838;
+}

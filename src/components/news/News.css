@@ -1,0 +1,152 @@
+.news-wrapper {
+    padding: 100px 0 100px 0;
+    min-height: 600px;
+    width: 100%;  
+    background-color: #EFEEEE;
+}
+
+.newsElement {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.newsElement .info div {
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.newsElement .info .date {
+    display: flex;
+    padding: 8px;
+    font-size: 15px;
+    color: #325D79;
+    background-color: #9BD7D1;
+    border-radius: 24px;
+    align-items: center;
+}
+
+.newsElement .info .date span{
+    text-align: center;
+}
+
+.newsElement .info .postOptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsElement .info .postOptions .adminOptions .delete button {
+    background-color: #d20015;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: .5;
+}
+
+.newsElement .info .postOptions .adminOptions .delete button:hover {
+    background-color: #c82333;
+    transition: .3s;
+    opacity: .9;
+}
+
+.newsElement .info .postOptions .adminOptions .update button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: .5;
+}
+
+.newsElement .info .postOptions .adminOptions .update button:hover {
+    background-color: #0062cc;
+    transition: .3s;
+    opacity: .9;
+}
+
+.newsElement .info .postOptions .adminOptions .update button:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.newsElement .info .postOptions .adminOptions span{
+    margin-left: 15px;
+}
+
+.bodyNews ol,ul {
+    padding-left: 40px!important;
+}
+
+.slider {
+    cursor: grab;
+    width: 100%;
+}
+
+.slick-list {
+    margin: 0 auto;
+}
+
+.sliderImages {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.newsElement .sliderImages img {
+    margin: 0 auto;
+}
+
+.newsElement .slick-dots li {
+    margin-left: 30px !important;
+    opacity: 0.5;
+}
+
+.newsElement .slick-dots li:first-child {
+    margin-left: 0px !important;
+}
+
+.newsElement .slick-dots .slick-active {
+    opacity: 1;
+}
+
+.buttonPopUpYes{
+    width: 40px;
+    height: 30px;
+    background-color: #00ff11;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+.buttonPopUpNo{
+    width: 40px;
+    height: 30px;
+    background-color: #ff0000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.buttonPopUpYes.buttonPopUpNo:hover{
+    cursor: pointer;
+}
+
+.sliderImages img{
+    max-width: 520px;
+}

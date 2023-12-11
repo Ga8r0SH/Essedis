@@ -1,0 +1,19 @@
+.scroll-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+  
+  .scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .scrollButton{
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+  }

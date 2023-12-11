@@ -1,0 +1,66 @@
+@font-face {
+    font-family: montseratt;
+    src: url(../../../assets/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: montserattReg;
+    src: url(../../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+.montseratt {
+    font-family: montseratt;
+}
+
+.montserattReg {
+    font-family: montserattReg;
+}
+
+.directions {
+    margin: 50px 0 50px 0;
+    min-height: 360px;
+}
+
+.directionsHeader {
+    text-align: center;
+    font-size: 29px;
+
+    margin-bottom: 100px;
+}
+
+.directionsBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+
+/* element styles */
+
+.element {
+    text-align: center;
+    width: 25%;
+}
+
+.element div {
+    margin-bottom: 10px;
+}
+
+.elementDescription {
+    word-wrap: break-word;
+    font-size: 15px;
+}
+
+.elementName {
+    font-size: 20px;
+}
+
+@media (max-width:1200px){
+    .directionsBox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .element{
+        width: 40%;
+    }
+}

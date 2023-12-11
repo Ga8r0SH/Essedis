@@ -1,0 +1,76 @@
+.aboutUs {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.creator {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.text div {
+    margin-bottom: 20px;
+}
+
+.textEnter div {
+    margin-bottom: 20px;
+}
+.textEnter div input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 4px rgba(0, 115, 255, 0.216);
+    transition: box-shadow 0.2s ease-in-out;
+    outline: none;
+
+}
+.textEnter div input:focus{
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.textEnter div input{
+    outline: none;
+}
+.submit {
+    text-align: center;
+}
+
+.editPerson {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editPerson:hover {
+    background-color: #0062cc;
+}
+
+.editPerson:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.addPerson {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.addPerson:hover {
+    background-color: #218838;
+}

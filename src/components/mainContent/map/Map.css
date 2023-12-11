@@ -1,0 +1,6 @@
+.wrapper__map iframe{
+   border: none;
+   width:100%;
+   height:600px;
+   margin-bottom: 50px;
+}
